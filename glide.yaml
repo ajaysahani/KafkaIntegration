@@ -1,0 +1,8 @@
+package: github.com/practice/KafkaIntegration
+import:
+- package: github.com/Shopify/sarama
+  version: ^1.12.0
+- package: github.com/Sirupsen/logrus
+  version: ^1.0.3
+- package: github.com/klauspost/shutdown2
+  version: ^1.0.4

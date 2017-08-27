@@ -1,0 +1,11 @@
+{
+  "ClientID" : "kafka-integration",
+  "KafkaBrokers" : ["localhost:9092","localhost:9093"],
+  "KafkaConsumerGroup" : "integration-group",
+  "KafkaTopics" : "testing",
+  "OutputFilePath" : "messages.log",
+  "LogFilePath" : "kafka-integration.log",
+  "Offset" : -1,
+  "MaxProcessors" : 3,
+  "PersistenceFactor" : 10
+}
